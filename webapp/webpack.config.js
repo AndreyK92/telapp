@@ -4,7 +4,7 @@ const path = require('path');
 const publicContentPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './webapp/src/index.js',
   module: {
     rules: [
     {
