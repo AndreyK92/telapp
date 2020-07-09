@@ -1,0 +1,37 @@
+{
+  "name": "telapp",
+  "version": "1.0.0",
+  "description": "An app for teleconferencing and such",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyK92/telapp.git"
+  },
+  "keywords": [
+    "Teleconferecning"
+  ],
+  "author": "Andrey Kalashnikov, Guthemberg Texeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyK92/telapp/issues"
+  },
+  "homepage": "https://github.com/AndreyK92/telapp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "react-hot-loader": "^4.12.21",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
