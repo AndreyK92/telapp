@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Menu from './Menu';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -30,7 +31,10 @@ export default class App extends React.Component {
 
   render() {
     return(
-      <div>{this.state.name}</div>
+      <div>
+        <Menu />
+        {this.state.name}
+      </div>
     );
   }
 } 
